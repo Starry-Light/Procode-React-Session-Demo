@@ -1,0 +1,141 @@
+/* CardContainer styles */
+.card-container {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 32px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ProfileCard styles */
+.profile-card {
+  text-align: center;
+}
+
+.profile-card h2 {
+  margin-bottom: 4px;
+  font-size: 24px;
+}
+
+.profile-card .role {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.profile-card .bio {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Badge styles */
+.badge {
+  display: inline-block;
+  background: #4caf50;
+  color: white;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin-left: 8px;
+}
+
+/* Status styles */
+.status {
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+
+.status.available {
+  color: #4caf50;
+}
+
+.status.unavailable {
+  color: #f44336;
+}
+
+/* Like button styles */
+.like-btn {
+  background: #e0e0e0;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.like-btn:hover {
+  background: #d0d0d0;
+}
+
+/* Projects section */
+.projects-section {
+  margin-bottom: 20px;
+}
+
+.projects-section h3 {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.projects-grid {
+  display: flex;
+  gap: 12px;
+}
+
+/* ProjectCard styles */
+.project-card {
+  flex: 1;
+  background: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: left;
+}
+
+.project-card h4 {
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.project-card p {
+  font-size: 11px;
+  color: #666;
+}
+
+/* Links container */
+.links {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* LinkButton styles */
+.link-btn {
+  background: #333;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.link-btn:hover {
+  background: #555;
+}
+
+/* Quote styles */
+.quote {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #eee;
+  font-style: italic;
+  font-size: 13px;
+  color: #666;
+}
