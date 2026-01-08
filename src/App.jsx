@@ -1,5 +1,4 @@
 import "./App.css";
-import CardContainer from "./components/CardContainer";
 import ProfileCard from "./components/ProfileCard";
 
 function App() {
@@ -10,7 +9,8 @@ function App() {
   ];
 
   return (
-    <CardContainer>
+    <div className="card-container">
+      {/* Pokemon to be added!!!!!! */}
       <ProfileCard
         name="Irfan"
         role="Founder & Developer"
@@ -18,9 +18,8 @@ function App() {
         isVerified={true}
         isAvailable={true}
         projects={projects}
-      />
-      
-    </CardContainer>
+        /> 
+    </div>
   );
 }
 
